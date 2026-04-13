@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ title | default("Black Beauty Brands — Your favorite products, in one place") }}</title>
+  <meta name="description" content="{{ description | default("Find Black-owned beauty products at the best prices across retailers. Compare prices and shop with confidence.") }}">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  {% include "nav.njk" %}
+  <main class="site-main">
+    {{ content | safe }}
+  </main>
+  {% include "footer.njk" %}
+</body>
+</html>

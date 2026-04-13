@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Hair Care",
+    "slug": "hair-care",
+    "description": "Shampoos, conditioners, treatments, and styling products",
+    "icon": "💇‍♀️"
+  },
+  {
+    "name": "Skin Care",
+    "slug": "skin-care",
+    "description": "Cleansers, moisturizers, serums, and masks",
+    "icon": "✨"
+  },
+  {
+    "name": "Makeup",
+    "slug": "makeup",
+    "description": "Face, lips, eyes, and tools",
+    "icon": "💄"
+  },
+  {
+    "name": "Body Care",
+    "slug": "body-care",
+    "description": "Lotions, oils, body wash, and more",
+    "icon": "🧴"
+  },
+  {
+    "name": "Nails",
+    "slug": "nails",
+    "description": "Polish, treatments, and nail tools",
+    "icon": "💅"
+  },
+  {
+    "name": "Natural & Clean",
+    "slug": "natural-clean",
+    "description": "Products made with natural and clean ingredients",
+    "icon": "🌿"
+  }
+]

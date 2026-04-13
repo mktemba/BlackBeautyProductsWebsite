@@ -1,0 +1,620 @@
+/* === Reset & Base === */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --color-bg: #ffffff;
+  --color-text: #1a1a1a;
+  --color-text-light: #666666;
+  --color-text-lighter: #999999;
+  --color-border: #e5e5e5;
+  --color-border-light: #f0f0f0;
+  --color-accent: #2563eb;
+  --color-accent-hover: #1d4ed8;
+  --color-best-price: #16a34a;
+  --color-best-price-bg: #f0fdf4;
+  --color-dtc: #9333ea;
+  --color-dtc-bg: #faf5ff;
+  --color-hero-bg: #0f172a;
+  --color-hero-text: #ffffff;
+  --color-card-bg: #ffffff;
+  --color-sidebar-bg: #f8fafc;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --max-width: 1200px;
+  --nav-height: 60px;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-text);
+  background: var(--color-bg);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* === Navigation === */
+.site-nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--color-bg);
+  border-bottom: 1px solid var(--color-border);
+  height: var(--nav-height);
+}
+
+.nav-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.nav-logo {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-text);
+  letter-spacing: -0.02em;
+}
+
+.nav-logo:hover {
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.nav-links a {
+  color: var(--color-text-light);
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 0.15s;
+}
+
+.nav-links a:hover {
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* === Main Content === */
+.site-main {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* === Hero === */
+.hero {
+  background: var(--color-hero-bg);
+  color: var(--color-hero-text);
+  padding: 48px 24px;
+  margin: 0 -24px 32px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #94a3b8;
+}
+
+/* === Homepage Layout === */
+.home-layout {
+  display: flex;
+  gap: 32px;
+  padding: 32px 0;
+}
+
+/* === Sidebar === */
+.sidebar {
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.sidebar h2 {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-lighter);
+  margin-bottom: 12px;
+}
+
+.sidebar-links {
+  list-style: none;
+}
+
+.sidebar-links li {
+  margin-bottom: 4px;
+}
+
+.sidebar-links a {
+  display: block;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+  color: var(--color-text-light);
+  transition: background 0.15s, color 0.15s;
+}
+
+.sidebar-links a:hover,
+.sidebar-links a.active {
+  background: var(--color-sidebar-bg);
+  color: var(--color-text);
+  text-decoration: none;
+}
+
+/* === Product Grid === */
+.product-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+/* === Product Card === */
+.product-card {
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: box-shadow 0.2s, transform 0.2s;
+}
+
+.product-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  transform: translateY(-2px);
+}
+
+.product-card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.product-card-image {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: var(--color-border-light);
+}
+
+.product-card-image-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--color-border-light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-lighter);
+  font-size: 14px;
+}
+
+.product-card-body {
+  padding: 14px;
+}
+
+.product-card-brand {
+  font-size: 12px;
+  color: var(--color-text-lighter);
+  margin-bottom: 2px;
+}
+
+.product-card-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 8px;
+  line-height: 1.3;
+}
+
+.product-card-price {
+  font-size: 14px;
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+.product-card-retailers {
+  font-size: 12px;
+  color: var(--color-text-lighter);
+  margin-left: 8px;
+  font-weight: 400;
+}
+
+/* === Product Detail === */
+.product-detail {
+  display: flex;
+  gap: 40px;
+  padding: 32px 0;
+}
+
+.product-detail-image {
+  width: 45%;
+  flex-shrink: 0;
+}
+
+.product-detail-image img {
+  width: 100%;
+  border-radius: 10px;
+  background: var(--color-border-light);
+}
+
+.product-detail-image-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--color-border-light);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-lighter);
+}
+
+.product-detail-info {
+  flex: 1;
+}
+
+.product-detail-brand {
+  font-size: 13px;
+  color: var(--color-text-lighter);
+  margin-bottom: 4px;
+}
+
+.product-detail-brand a {
+  color: var(--color-accent);
+}
+
+.product-detail-name {
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.product-detail-description {
+  font-size: 15px;
+  color: var(--color-text-light);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+/* === Price Table === */
+.price-table-header {
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.price-table {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.price-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 1px solid var(--color-border-light);
+  gap: 12px;
+}
+
+.price-row:last-child {
+  border-bottom: none;
+}
+
+.price-row-best {
+  background: var(--color-best-price-bg);
+}
+
+.price-row-dtc {
+  background: var(--color-dtc-bg);
+}
+
+.price-row-retailer {
+  flex: 1;
+}
+
+.price-row-retailer-name {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.price-row-badge {
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  display: block;
+  margin-bottom: 2px;
+}
+
+.price-row-badge-best {
+  color: var(--color-best-price);
+}
+
+.price-row-badge-dtc {
+  color: var(--color-dtc);
+}
+
+.price-row-price-area {
+  text-align: right;
+  min-width: 100px;
+}
+
+.price-row-price {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.price-row-shipping {
+  font-size: 11px;
+  color: var(--color-text-lighter);
+}
+
+.price-row-shipping-best {
+  color: var(--color-best-price);
+}
+
+.price-row-shipping-dtc {
+  color: var(--color-dtc);
+}
+
+.price-row-cta {
+  display: inline-flex;
+  align-items: center;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background 0.15s;
+}
+
+.price-row-cta:hover {
+  text-decoration: none;
+}
+
+.price-row-cta-primary {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.price-row-cta-primary:hover {
+  background: var(--color-accent-hover);
+}
+
+.price-row-cta-secondary {
+  background: var(--color-border-light);
+  color: var(--color-text);
+}
+
+.price-row-cta-secondary:hover {
+  background: var(--color-border);
+}
+
+.price-table-footer {
+  font-size: 12px;
+  color: var(--color-text-lighter);
+  margin-top: 10px;
+}
+
+/* === Breadcrumbs === */
+.breadcrumbs {
+  font-size: 13px;
+  color: var(--color-text-lighter);
+  padding: 16px 0;
+}
+
+.breadcrumbs a {
+  color: var(--color-text-lighter);
+}
+
+.breadcrumbs a:hover {
+  color: var(--color-text);
+}
+
+.breadcrumbs .separator {
+  margin: 0 6px;
+}
+
+/* === Brand Page === */
+.brand-header {
+  padding: 32px 0 24px;
+}
+
+.brand-name {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.brand-meta {
+  font-size: 13px;
+  color: var(--color-text-lighter);
+  margin-bottom: 16px;
+}
+
+.brand-bio {
+  font-size: 15px;
+  color: var(--color-text-light);
+  line-height: 1.7;
+  max-width: 640px;
+}
+
+/* === Category Page === */
+.category-header {
+  padding: 32px 0 24px;
+}
+
+.category-name {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+
+.category-description {
+  font-size: 15px;
+  color: var(--color-text-light);
+}
+
+/* === About Page === */
+.about-content {
+  max-width: 640px;
+  padding: 32px 0;
+}
+
+.about-content h1 {
+  font-size: 28px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 16px;
+}
+
+.about-content p {
+  font-size: 15px;
+  color: var(--color-text-light);
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+/* === Brands Index === */
+.brands-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 32px 0;
+}
+
+.brand-card {
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 20px;
+  transition: box-shadow 0.2s;
+}
+
+.brand-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.brand-card a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.brand-card-name {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.brand-card-meta {
+  font-size: 12px;
+  color: var(--color-text-lighter);
+  margin-bottom: 8px;
+}
+
+.brand-card-bio {
+  font-size: 13px;
+  color: var(--color-text-light);
+  line-height: 1.5;
+}
+
+/* === Footer === */
+.site-footer {
+  border-top: 1px solid var(--color-border);
+  margin-top: 64px;
+  padding: 32px 0;
+}
+
+.footer-inner {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: center;
+}
+
+.site-footer p {
+  font-size: 13px;
+  color: var(--color-text-lighter);
+}
+
+.footer-disclaimer {
+  margin-top: 8px;
+  font-size: 12px;
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .home-layout {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .sidebar-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .product-detail {
+    flex-direction: column;
+  }
+
+  .product-detail-image {
+    width: 100%;
+  }
+
+  .price-row {
+    flex-wrap: wrap;
+  }
+
+  .hero h1 {
+    font-size: 22px;
+  }
+}

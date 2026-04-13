@@ -1,0 +1,12 @@
+<nav class="site-nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Black Beauty Brands</a>
+    <ul class="nav-links">
+      {% for cat in categories %}
+      <li><a href="/{{ cat.slug }}/">{{ cat.name }}</a></li>
+      {% endfor %}
+      <li><a href="/brands/">Brands</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </div>
+</nav>

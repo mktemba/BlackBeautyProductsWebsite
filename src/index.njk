@@ -1,0 +1,20 @@
+---
+layout: base.njk
+title: "Black Beauty Brands — Your favorite products, in one place"
+description: "Find Black-owned beauty products at the best prices across retailers. Compare prices and shop with confidence."
+---
+
+<div class="hero">
+  <h1>Black Beauty Brands</h1>
+  <p>Your favorite products, in one place.</p>
+</div>
+
+<div class="home-layout">
+  {% include "category-sidebar.njk" %}
+
+  <div class="product-grid">
+    {% for product in products %}
+      {% include "product-card.njk" %}
+    {% endfor %}
+  </div>
+</div>

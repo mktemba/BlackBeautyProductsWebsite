@@ -1,0 +1,21 @@
+<div class="product-card">
+  <a href="/products/{{ product.slug }}/">
+    {% if product.image %}
+      <img class="product-card-image" src="{{ product.image }}" alt="{{ product.name }}">
+    {% else %}
+      <div class="product-card-image-placeholder">No image</div>
+    {% endif %}
+    <div class="product-card-body">
+      {% set brand = brands | findBrand(product.brand) %}
+      <div class="product-card-brand">{{ brand.name if brand else "" }}</div>
+      <div class="product-card-name">{{ product.name }}</div>
+      {% set productPrices = prices[product.slug] %}
+      {% if productPrices %}
+        <div>
+          <span class="product-card-price">from ${{ productPrices | lowestPrice | formatPrice }}</span>
+          <span class="product-card-retailers">{{ productPrices | retailerCount }} retailer{{ "s" if productPrices | retailerCount > 1 }}</span>
+        </div>
+      {% endif %}
+    </div>
+  </a>
+</div>

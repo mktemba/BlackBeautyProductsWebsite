@@ -1,0 +1,25 @@
+{
+  "name": "black-beauty-brands",
+  "version": "1.0.0",
+  "description": "Black Beauty Brands - Find Black-owned beauty products at the best prices across retailers",
+  "scripts": {
+    "build": "npx @11ty/eleventy",
+    "serve": "npx @11ty/eleventy --serve",
+    "scrape": "node scripts/scrape-prices.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mktemba/BlackBeautyProductsWebsite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mktemba/BlackBeautyProductsWebsite/issues"
+  },
+  "homepage": "https://github.com/mktemba/BlackBeautyProductsWebsite#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.5"
+  }
+}
