@@ -1,0 +1,41 @@
+name: Update Prices
+
+on:
+  schedule:
+    - cron: "0 6 * * *" # Daily at 6am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Run price scrapers
+        run: npm run scrape
+        env:
+          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
+          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
+          AMAZON_PARTNER_TAG: ${{ secrets.AMAZON_PARTNER_TAG }}
+          SHAREASALE_API_TOKEN: ${{ secrets.SHAREASALE_API_TOKEN }}
+          SHAREASALE_API_SECRET: ${{ secrets.SHAREASALE_API_SECRET }}
+          CJ_API_KEY: ${{ secrets.CJ_API_KEY }}
+          RAKUTEN_API_KEY: ${{ secrets.RAKUTEN_API_KEY }}
+
+      - name: Commit updated prices
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/_data/prices.json
+          git diff --staged --quiet || git commit -m "Update product prices [automated]"
+          git diff --staged --quiet || git push
