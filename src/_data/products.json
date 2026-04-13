@@ -1,1 +1,282 @@
-[]
+[
+  {
+    "name": "Just a Tint 3-in-1 Tinted Skin Moisturizer",
+    "slug": "lip-bar-just-a-tint",
+    "brand": "the-lip-bar",
+    "category": "makeup",
+    "description": "SPF-infused tinted moisturizer and skin conditioner in one. Available in 20+ shades for buildable, natural coverage.",
+    "image": ""
+  },
+  {
+    "name": "Quick Conceal Caffeine Concealer",
+    "slug": "lip-bar-caffeine-concealer",
+    "brand": "the-lip-bar",
+    "category": "makeup",
+    "description": "Self-setting satin-finish concealer infused with caffeine for minimal effort, full coverage.",
+    "image": ""
+  },
+  {
+    "name": "Soft Kisses Nourishing Lipstick",
+    "slug": "lip-bar-soft-kisses-lipstick",
+    "brand": "the-lip-bar",
+    "category": "makeup",
+    "description": "Hydrating, nourishing lipstick available in bold and neutral shades.",
+    "image": ""
+  },
+  {
+    "name": "Make It Glow SPF 30",
+    "slug": "bgs-make-it-glow",
+    "brand": "black-girl-sunscreen",
+    "category": "skin-care",
+    "description": "Moisturizing sunscreen lotion with jojoba, glycerin, and avocado oils. Sheer finish with no white cast.",
+    "image": ""
+  },
+  {
+    "name": "Original SPF 30",
+    "slug": "bgs-original-spf30",
+    "brand": "black-girl-sunscreen",
+    "category": "skin-care",
+    "description": "Flagship daily-use moisturizing sunscreen for face and body, designed for melanated skin.",
+    "image": ""
+  },
+  {
+    "name": "Make It Matte SPF 45",
+    "slug": "bgs-make-it-matte",
+    "brand": "black-girl-sunscreen",
+    "category": "skin-care",
+    "description": "Matte-finish sunscreen formula for oily or combination melanated skin.",
+    "image": ""
+  },
+  {
+    "name": "Rosemary Mint Scalp & Hair Strengthening Oil",
+    "slug": "mielle-rosemary-mint-oil",
+    "brand": "mielle-organics",
+    "category": "hair-care",
+    "description": "Cult-status biotin-infused scalp oil that went viral on TikTok for hair growth results. 2 oz.",
+    "image": ""
+  },
+  {
+    "name": "Pomegranate & Honey Leave-In Conditioner",
+    "slug": "mielle-pomegranate-leave-in",
+    "brand": "mielle-organics",
+    "category": "hair-care",
+    "description": "Rich leave-in conditioner for curly and coily hair types.",
+    "image": ""
+  },
+  {
+    "name": "Babassu Oil & Mint Deep Conditioner",
+    "slug": "mielle-babassu-deep-conditioner",
+    "brand": "mielle-organics",
+    "category": "hair-care",
+    "description": "Deep conditioning treatment for dry, damaged strands.",
+    "image": ""
+  },
+  {
+    "name": "Leave-In Conditioner",
+    "slug": "pattern-leave-in-conditioner",
+    "brand": "pattern-beauty",
+    "category": "hair-care",
+    "description": "Bestselling detangling and moisture-sealing leave-in for curly and coily hair. 25 fl oz.",
+    "image": ""
+  },
+  {
+    "name": "Hydration Shampoo",
+    "slug": "pattern-hydration-shampoo",
+    "brand": "pattern-beauty",
+    "category": "hair-care",
+    "description": "Gentle, non-stripping shampoo that preserves curl moisture. 25 fl oz.",
+    "image": ""
+  },
+  {
+    "name": "Skin by Mented Foundation",
+    "slug": "mented-foundation",
+    "brand": "mented-cosmetics",
+    "category": "makeup",
+    "description": "Buildable, skin-like foundation in inclusive shades designed for women of color.",
+    "image": ""
+  },
+  {
+    "name": "Semi-Matte Lipstick",
+    "slug": "mented-semi-matte-lipstick",
+    "brand": "mented-cosmetics",
+    "category": "makeup",
+    "description": "Long-wearing semi-matte formula in nude-to-bold shades for melanated skin tones.",
+    "image": ""
+  },
+  {
+    "name": "Almond Jai Twisting Butter",
+    "slug": "camille-rose-twisting-butter",
+    "brand": "camille-rose-naturals",
+    "category": "hair-care",
+    "description": "Bestselling, ultra-moisturizing butter for twists, locs, and coils.",
+    "image": ""
+  },
+  {
+    "name": "Curl Maker",
+    "slug": "camille-rose-curl-maker",
+    "brand": "camille-rose-naturals",
+    "category": "hair-care",
+    "description": "Long-hold curl-defining jelly for all curl types. Cult status in the natural hair community.",
+    "image": ""
+  },
+  {
+    "name": "Honey Miracle Hair Mask",
+    "slug": "tgin-honey-miracle-mask",
+    "brand": "tgin",
+    "category": "hair-care",
+    "description": "Deep conditioning treatment with honey and olive oil. TGIN's bestselling product.",
+    "image": ""
+  },
+  {
+    "name": "Butter Cream Daily Moisturizer",
+    "slug": "tgin-butter-cream",
+    "brand": "tgin",
+    "category": "hair-care",
+    "description": "Rich daily moisturizer for curly, coily, and wavy hair.",
+    "image": ""
+  },
+  {
+    "name": "Mousse Def Texture Foam",
+    "slug": "the-doux-mousse-def",
+    "brand": "the-doux",
+    "category": "hair-care",
+    "description": "Bestselling lightweight curl-defining mousse. Has sold 500,000+ units.",
+    "image": ""
+  },
+  {
+    "name": "Big Poppa Defining Gel",
+    "slug": "the-doux-big-poppa",
+    "brand": "the-doux",
+    "category": "hair-care",
+    "description": "Medium-hold curl gel inspired by The Notorious B.I.G.",
+    "image": ""
+  },
+  {
+    "name": "Miracle Drops",
+    "slug": "kaleidoscope-miracle-drops",
+    "brand": "kaleidoscope",
+    "category": "hair-care",
+    "description": "Multipurpose peppermint, tea tree, and aloe scalp oil for hair growth and edge restoration.",
+    "image": ""
+  },
+  {
+    "name": "Miracle Edges Edge Control",
+    "slug": "kaleidoscope-miracle-edges",
+    "brand": "kaleidoscope",
+    "category": "hair-care",
+    "description": "Non-flaky, long-hold edge pomade infused with the Miracle Drops formula.",
+    "image": ""
+  },
+  {
+    "name": "Super Smoothie Brightening Cleanser",
+    "slug": "rosen-super-smoothie-cleanser",
+    "brand": "rosen-skincare",
+    "category": "skin-care",
+    "description": "Fruit-powder exfoliating cleanser that targets breakouts and dullness. Bestseller.",
+    "image": ""
+  },
+  {
+    "name": "Hyper-Fade Dark Spot Patches",
+    "slug": "rosen-hyper-fade-patches",
+    "brand": "rosen-skincare",
+    "category": "skin-care",
+    "description": "Adhesive dark spot patches with active ingredients for targeted treatment.",
+    "image": ""
+  },
+  {
+    "name": "ScalpBliss Itch Calming Serum",
+    "slug": "canviiy-scalpbliss-serum",
+    "brand": "canviiy",
+    "category": "hair-care",
+    "description": "Organic aloe, lavender, witch hazel, manuka honey, and peppermint serum for chronic scalp itch and irritation.",
+    "image": ""
+  },
+  {
+    "name": "HAPPY Lavender Kids Natural Deodorant",
+    "slug": "play-pits-happy-lavender",
+    "brand": "play-pits",
+    "category": "body-care",
+    "description": "Lavender-scented aluminum-free all-natural deodorant for children.",
+    "image": ""
+  },
+  {
+    "name": "QUEEN Lemon & Amber Natural Deodorant",
+    "slug": "play-pits-queen",
+    "brand": "play-pits",
+    "category": "body-care",
+    "description": "Fresh citrus-amber adult formula. Bestseller for women.",
+    "image": ""
+  },
+  {
+    "name": "Amor Eyeshadow Palette",
+    "slug": "luna-magic-amor-palette",
+    "brand": "luna-magic",
+    "category": "makeup",
+    "description": "Boldly pigmented eyeshadow palette inspired by Afro-Latina aesthetic.",
+    "image": ""
+  },
+  {
+    "name": "Matte Liquid Lipstick",
+    "slug": "luna-magic-matte-lipstick",
+    "brand": "luna-magic",
+    "category": "makeup",
+    "description": "Long-wearing matte formula in vibrant and deep shades.",
+    "image": ""
+  },
+  {
+    "name": "True Color Even True Skin Foundation",
+    "slug": "black-opal-true-color-foundation",
+    "brand": "black-opal",
+    "category": "makeup",
+    "description": "Even-tone foundation formulated specifically for deep and rich skin tones.",
+    "image": ""
+  },
+  {
+    "name": "Correcting Creme Concealer",
+    "slug": "black-opal-concealer",
+    "brand": "black-opal",
+    "category": "makeup",
+    "description": "Full-coverage concealer for hyperpigmentation and dark circles.",
+    "image": ""
+  },
+  {
+    "name": "Black Stallion Pre-Stretched Braiding Hair",
+    "slug": "slayyy-black-stallion",
+    "brand": "slayyy-hair",
+    "category": "hair-care",
+    "description": "Classic black pre-stretched itch-free synthetic braiding hair with patented cleansing process.",
+    "image": ""
+  },
+  {
+    "name": "Multi-Use Softening Leave-In Conditioner",
+    "slug": "melanin-leave-in-conditioner",
+    "brand": "melanin-haircare",
+    "category": "hair-care",
+    "description": "Lightweight leave-in for detangling, moisture, and softness on textured hair.",
+    "image": ""
+  },
+  {
+    "name": "African Black Soap Reviving Shampoo",
+    "slug": "melanin-black-soap-shampoo",
+    "brand": "melanin-haircare",
+    "category": "hair-care",
+    "description": "Clarifying black soap shampoo for scalp health and buildup removal.",
+    "image": ""
+  },
+  {
+    "name": "Healing Face Cleanser",
+    "slug": "jacqs-healing-cleanser",
+    "brand": "jacqs-organics",
+    "category": "skin-care",
+    "description": "Gentle probiotic-infused cleanser for melanated skin. Part of the flagship Heal & Slay Kit.",
+    "image": ""
+  },
+  {
+    "name": "Nourishing Facial Moisturizer",
+    "slug": "jacqs-facial-moisturizer",
+    "brand": "jacqs-organics",
+    "category": "skin-care",
+    "description": "Rich organic moisturizer with tropical ingredients for melanated and combination skin.",
+    "image": ""
+  }
+]

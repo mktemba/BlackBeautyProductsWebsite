@@ -1,1 +1,153 @@
-{}
+{
+  "lip-bar-just-a-tint": [
+    { "retailer": "Walmart", "price": 16.97, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "thelipbar.com", "price": 16.97, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" },
+    { "retailer": "Amazon", "price": 16.97, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "lip-bar-caffeine-concealer": [
+    { "retailer": "thelipbar.com", "price": 14.97, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" },
+    { "retailer": "Amazon", "price": 15.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "lip-bar-soft-kisses-lipstick": [
+    { "retailer": "thelipbar.com", "price": 12.97, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" },
+    { "retailer": "Amazon", "price": 13.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "bgs-make-it-glow": [
+    { "retailer": "Ulta Beauty", "price": 18.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "blackgirlsunscreen.com", "price": 18.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" },
+    { "retailer": "Amazon", "price": 18.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "bgs-original-spf30": [
+    { "retailer": "Amazon", "price": 16.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 16.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "blackgirlsunscreen.com", "price": 16.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "bgs-make-it-matte": [
+    { "retailer": "Ulta Beauty", "price": 18.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Amazon", "price": 18.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "mielle-rosemary-mint-oil": [
+    { "retailer": "Amazon", "price": 9.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 9.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 9.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "mielleorganics.com", "price": 9.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "mielle-pomegranate-leave-in": [
+    { "retailer": "Amazon", "price": 12.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 12.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "mielle-babassu-deep-conditioner": [
+    { "retailer": "Amazon", "price": 14.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 14.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "pattern-leave-in-conditioner": [
+    { "retailer": "Sephora", "price": 49.00, "url": "#", "shipping": "Free shipping $50+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 49.00, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "patternbeauty.com", "price": 49.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" },
+    { "retailer": "Amazon", "price": 49.00, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "pattern-hydration-shampoo": [
+    { "retailer": "Sephora", "price": 45.00, "url": "#", "shipping": "Free shipping $50+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "patternbeauty.com", "price": 45.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "mented-foundation": [
+    { "retailer": "mentedcosmetics.com", "price": 30.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 30.00, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "mented-semi-matte-lipstick": [
+    { "retailer": "mentedcosmetics.com", "price": 16.50, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" },
+    { "retailer": "Amazon", "price": 16.50, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "camille-rose-twisting-butter": [
+    { "retailer": "Amazon", "price": 17.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 17.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "camillerose.com", "price": 17.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "camille-rose-curl-maker": [
+    { "retailer": "Amazon", "price": 22.49, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 22.49, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "tgin-honey-miracle-mask": [
+    { "retailer": "Amazon", "price": 19.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 19.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "tginatural.com", "price": 19.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "tgin-butter-cream": [
+    { "retailer": "Amazon", "price": 16.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 16.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "the-doux-mousse-def": [
+    { "retailer": "Amazon", "price": 12.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 12.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "thedoux.com", "price": 12.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "the-doux-big-poppa": [
+    { "retailer": "Amazon", "price": 9.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 9.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "kaleidoscope-miracle-drops": [
+    { "retailer": "Amazon", "price": 19.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 19.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "kaleidoscopehairproducts.com", "price": 29.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "kaleidoscope-miracle-edges": [
+    { "retailer": "Amazon", "price": 10.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 10.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "rosen-super-smoothie-cleanser": [
+    { "retailer": "Ulta Beauty", "price": 22.00, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "rosenskincare.com", "price": 22.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "rosen-hyper-fade-patches": [
+    { "retailer": "Ulta Beauty", "price": 18.00, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "rosenskincare.com", "price": 18.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "canviiy-scalpbliss-serum": [
+    { "retailer": "Amazon", "price": 22.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "canviiy.com", "price": 24.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "play-pits-happy-lavender": [
+    { "retailer": "Amazon", "price": 13.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "playpits.com", "price": 13.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "play-pits-queen": [
+    { "retailer": "Amazon", "price": 13.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "playpits.com", "price": 13.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "luna-magic-amor-palette": [
+    { "retailer": "Amazon", "price": 15.00, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Walmart", "price": 15.00, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "lunamagic.com", "price": 26.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "luna-magic-matte-lipstick": [
+    { "retailer": "Amazon", "price": 12.00, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "lunamagic.com", "price": 12.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "black-opal-true-color-foundation": [
+    { "retailer": "Amazon", "price": 9.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 10.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "blackopalbeauty.com", "price": 12.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "black-opal-concealer": [
+    { "retailer": "Amazon", "price": 8.99, "url": "#", "shipping": "Free shipping w/ Prime", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Ulta Beauty", "price": 8.99, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" }
+  ],
+  "slayyy-black-stallion": [
+    { "retailer": "slayyybeauty.com", "price": 6.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "melanin-leave-in-conditioner": [
+    { "retailer": "Ulta Beauty", "price": 31.00, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "Sephora", "price": 31.00, "url": "#", "shipping": "Free shipping $50+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "melaninhaircare.com", "price": 31.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "melanin-black-soap-shampoo": [
+    { "retailer": "Ulta Beauty", "price": 27.00, "url": "#", "shipping": "Free shipping $35+", "isDTC": false, "lastChecked": "2026-04-12" },
+    { "retailer": "melaninhaircare.com", "price": 27.00, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "jacqs-healing-cleanser": [
+    { "retailer": "shopjacqs.com", "price": 20.49, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ],
+  "jacqs-facial-moisturizer": [
+    { "retailer": "shopjacqs.com", "price": 23.99, "url": "#", "shipping": "Buy direct from brand", "isDTC": true, "lastChecked": "2026-04-12" }
+  ]
+}

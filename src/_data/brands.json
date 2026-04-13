@@ -1,1 +1,121 @@
-[]
+[
+  {
+    "name": "The Lip Bar",
+    "slug": "the-lip-bar",
+    "bio": "The largest Black-owned makeup brand stocked at Target. Founded by Melissa Butler after being rejected on Shark Tank, The Lip Bar makes vegan, cruelty-free cosmetics designed to be accessible and inclusive for all skin tones.",
+    "founded": 2012,
+    "website": "https://thelipbar.com"
+  },
+  {
+    "name": "Black Girl Sunscreen",
+    "slug": "black-girl-sunscreen",
+    "bio": "The first Black-owned sunscreen brand in major mass retail. Founder Shontay Lundy invested $33,000 of personal savings to develop SPF formulas specifically designed for melanated skin with zero white cast.",
+    "founded": 2016,
+    "website": "https://blackgirlsunscreen.com"
+  },
+  {
+    "name": "Mielle Organics",
+    "slug": "mielle-organics",
+    "bio": "One of the fastest-growing Black-owned hair care brands in the U.S., known for nourishing, biotin-infused products for all natural hair textures. Their Rosemary Mint oil became a viral TikTok phenomenon.",
+    "founded": 2014,
+    "website": "https://mielleorganics.com"
+  },
+  {
+    "name": "Pattern Beauty",
+    "slug": "pattern-beauty",
+    "bio": "Premium hair care designed specifically for curly, coily, and tight-textured hair. Founded by actress Tracee Ellis Ross, Pattern Beauty is one of the most culturally prominent Black-owned beauty brands.",
+    "founded": 2019,
+    "website": "https://patternbeauty.com"
+  },
+  {
+    "name": "Mented Cosmetics",
+    "slug": "mented-cosmetics",
+    "bio": "Inclusive cosmetics built around nude shades for women of color. 'Mented' derives from 'pigmented' — the brand was founded by KJ Miller and Amanda E. Johnson to fill the gap in foundations and lip products for deeper skin tones.",
+    "founded": 2017,
+    "website": "https://mentedcosmetics.com"
+  },
+  {
+    "name": "Camille Rose Naturals",
+    "slug": "camille-rose-naturals",
+    "bio": "Nature-inspired, food-grade hair care created by Janell Stephens in her kitchen for her five children with eczema. Now one of the most widely distributed natural hair care brands for textured hair, sold in 300,000+ retail locations globally.",
+    "founded": 2011,
+    "website": "https://camillerose.com"
+  },
+  {
+    "name": "TGIN",
+    "slug": "tgin",
+    "bio": "One of the original mass-market natural hair care brands, founded by the late Chris-Tia Donaldson. TGIN (Thank God It's Natural) pioneered 'natural hair as self-care' with moisture-rich, deeply nourishing products.",
+    "founded": 2009,
+    "website": "https://tginatural.com"
+  },
+  {
+    "name": "The Doux",
+    "slug": "the-doux",
+    "bio": "90s Hip Hop-inspired natural haircare with products named after iconic rap songs. Founded by licensed cosmetologist Maya Smith and husband Bryan, The Doux built an 8-figure brand through cultural authenticity.",
+    "founded": 2012,
+    "website": "https://thedoux.com"
+  },
+  {
+    "name": "Kaleidoscope Hair Products",
+    "slug": "kaleidoscope",
+    "bio": "Built on viral social media marketing by founder Jesseca 'Judy' Dupart. Known for addressing hair loss from weaves, color damage, and traction alopecia. The Miracle Drops became a multi-million-dollar hero product.",
+    "founded": 2014,
+    "website": "https://kaleidoscopehairproducts.com"
+  },
+  {
+    "name": "ROSEN Skincare",
+    "slug": "rosen-skincare",
+    "bio": "Acne-focused clean skincare designed specifically for melanated skin. Founded by Jamika Martin while she was a UCLA student, ROSEN positions as authentic acne care with clinical performance at indie brand prices.",
+    "founded": 2017,
+    "website": "https://rosenskincare.com"
+  },
+  {
+    "name": "Canviiy",
+    "slug": "canviiy",
+    "bio": "Pioneer of an entirely new scalp care category positioned between beauty and healthcare. Founded by Sherrel Sampson, Canviiy's ScalpBliss line treats eczema, psoriasis, and dermatitis of the scalp with all-organic formulas.",
+    "founded": 2014,
+    "website": "https://canviiy.com"
+  },
+  {
+    "name": "Play Pits",
+    "slug": "play-pits",
+    "bio": "100% natural, aluminum-free, handmade deodorant for children and adults. Founded by Chantel Powell using her grandmother's remedies after her son wanted to share her homemade deodorant at summer camp.",
+    "founded": 2021,
+    "website": "https://playpits.com"
+  },
+  {
+    "name": "Luna Magic",
+    "slug": "luna-magic",
+    "bio": "Afro-Latina owned inclusive cosmetics bringing bold, culturally expressive beauty inspired by Dominican and Caribbean heritage. Founded by sisters Mabel and Shaira Frías, all products are priced under $20.",
+    "founded": 2019,
+    "website": "https://lunamagic.com"
+  },
+  {
+    "name": "Black Opal Beauty",
+    "slug": "black-opal",
+    "bio": "One of the oldest beauty brands built for women with melanated skin, addressing hyperpigmentation, brightening, and enlarged pores. Made officially Black-owned in 2019 under Desiree Rogers and Cheryl Mayberry McKissack.",
+    "founded": 1994,
+    "website": "https://blackopalbeauty.com"
+  },
+  {
+    "name": "SLAYYY Hair",
+    "slug": "slayyy-hair",
+    "bio": "The first Black-owned synthetic braiding hair brand at Target. Founder Diann Valentine invested $500,000 to develop proprietary itch-free, pre-stretched braiding hair with a patented cleansing process.",
+    "founded": 2023,
+    "website": "https://slayyybeauty.com"
+  },
+  {
+    "name": "Melanin Haircare",
+    "slug": "melanin-haircare",
+    "bio": "Built from Whitney White's 1M+ subscriber YouTube channel 'Naptural85.' Co-founded with sister Taffeta White, the brand sold out at Ulta within days of launch and was featured in Beyoncé's Black-owned business directory.",
+    "founded": 2018,
+    "website": "https://melaninhaircare.com"
+  },
+  {
+    "name": "JACQ'S Organics",
+    "slug": "jacqs-organics",
+    "bio": "Haitian-American owned clean skincare handcrafted in Miami using tropical, probiotic-derived ingredients. Formulated specifically for melanin-rich skin by founder Barbara Jacques.",
+    "founded": 2011,
+    "website": "https://shopjacqs.com"
+  }
+]
