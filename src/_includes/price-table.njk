@@ -1,0 +1,26 @@
+{% set sortedPrices = productPrices | sortByPrice %}
+{% if sortedPrices.length > 0 %}
+<h2 class="price-table-header">Compare Prices</h2>
+<div class="price-table">
+  {% for entry in sortedPrices %}
+  <div class="price-row{% if loop.first %} price-row-best{% elif entry.isDTC %} price-row-dtc{% endif %}">
+    <div class="price-row-retailer">
+      {% if loop.first %}
+        <span class="price-row-badge price-row-badge-best">Best Price</span>
+      {% elif entry.isDTC %}
+        <span class="price-row-badge price-row-badge-dtc">Buy Direct</span>
+      {% endif %}
+      <span class="price-row-retailer-name">{{ entry.retailer }}</span>
+    </div>
+    <div class="price-row-price-area">
+      <div class="price-row-price">${{ entry.price | formatPrice }}</div>
+      <div class="price-row-shipping{% if loop.first %} price-row-shipping-best{% elif entry.isDTC %} price-row-shipping-dtc{% endif %}">{{ entry.shipping }}</div>
+    </div>
+    <a href="{{ entry.url }}" class="price-row-cta {% if loop.first %}price-row-cta-primary{% else %}price-row-cta-secondary{% endif %}" target="_blank" rel="noopener sponsored">
+      Shop &rarr;
+    </a>
+  </div>
+  {% endfor %}
+</div>
+<p class="price-table-footer">Prices updated daily. Last checked: {{ sortedPrices[0].lastChecked }}</p>
+{% endif %}

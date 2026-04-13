@@ -1,0 +1,30 @@
+---
+layout: base.njk
+pagination:
+  data: categories
+  size: 1
+  alias: category
+permalink: "/{{ category.slug }}/"
+eleventyComputed:
+  title: "{{ category.name }} - Black Beauty Brands"
+  description: "Shop {{ category.name | lower }} products from Black-owned beauty brands. {{ category.description }}"
+---
+
+<div class="category-header">
+  <h1 class="category-name">{{ category.name }}</h1>
+  <p class="category-description">{{ category.description }}</p>
+</div>
+
+<div class="home-layout">
+  {% include "category-sidebar.njk" %}
+
+  <div class="product-grid">
+    {% set categoryProducts = products | filterByCategory(category.slug) %}
+    {% for product in categoryProducts %}
+      {% include "product-card.njk" %}
+    {% endfor %}
+    {% if categoryProducts.length == 0 %}
+      <p style="color: var(--color-text-lighter); grid-column: 1 / -1;">No products in this category yet. Check back soon.</p>
+    {% endif %}
+  </div>
+</div>

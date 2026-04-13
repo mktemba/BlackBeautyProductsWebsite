@@ -1,0 +1,26 @@
+---
+layout: base.njk
+title: "All Brands - Black Beauty Brands"
+description: "Browse all Black-owned beauty brands. Learn their stories and shop their products."
+permalink: "/brands/"
+---
+
+<div class="category-header">
+  <h1 class="category-name">All Brands</h1>
+  <p class="category-description">{{ brands.length }} Black-owned beauty brands. Learn their stories and shop their products.</p>
+</div>
+
+<div class="brands-grid">
+  {% for brand in brands %}
+  <div class="brand-card">
+    <a href="/brands/{{ brand.slug }}/">
+      <div class="brand-card-name">{{ brand.name }}</div>
+      <div class="brand-card-meta">
+        Founded {{ brand.founded }}
+        &middot; {{ products | filterByBrand(brand.slug) | length }} products
+      </div>
+      <p class="brand-card-bio">{{ brand.bio | truncate(120) }}</p>
+    </a>
+  </div>
+  {% endfor %}
+</div>

@@ -1,0 +1,47 @@
+---
+layout: base.njk
+pagination:
+  data: products
+  size: 1
+  alias: product
+permalink: "/products/{{ product.slug }}/"
+eleventyComputed:
+  title: "{{ product.name }} - Compare Prices | Black Beauty Brands"
+  description: "{{ product.description }} Compare prices across retailers and find the best deal."
+---
+
+{% set brand = brands | findBrand(product.brand) %}
+{% set category = categories | findCategory(product.category) %}
+{% set productPrices = prices[product.slug] %}
+
+<div class="breadcrumbs">
+  <a href="/">Home</a>
+  <span class="separator">&rsaquo;</span>
+  {% if category %}
+  <a href="/{{ category.slug }}/">{{ category.name }}</a>
+  <span class="separator">&rsaquo;</span>
+  {% endif %}
+  {{ product.name }}
+</div>
+
+<div class="product-detail">
+  <div class="product-detail-image">
+    {% if product.image %}
+      <img src="{{ product.image }}" alt="{{ product.name }}">
+    {% else %}
+      <div class="product-detail-image-placeholder">No image available</div>
+    {% endif %}
+  </div>
+
+  <div class="product-detail-info">
+    <div class="product-detail-brand">
+      {% if brand %}
+        <a href="/brands/{{ brand.slug }}/">{{ brand.name }}</a>
+      {% endif %}
+    </div>
+    <h1 class="product-detail-name">{{ product.name }}</h1>
+    <p class="product-detail-description">{{ product.description }}</p>
+
+    {% include "price-table.njk" %}
+  </div>
+</div>
