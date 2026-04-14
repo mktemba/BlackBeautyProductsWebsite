@@ -8,7 +8,7 @@ A static affiliate website that catalogs Black-owned beauty products with price 
 
 ## Features
 
-- 17 Black-owned beauty brands, 35+ products
+- 17 Black-owned beauty brands, 41 products
 - Price comparison across Amazon, Walmart, Ulta, Sephora, and brand DTC sites
 - Category browsing: Hair Care, Skin Care, Makeup, Body Care, Nails, Natural & Clean
 - Brand profile pages with product listings
@@ -30,6 +30,14 @@ npm run serve    # local dev server at http://localhost:8080
 npm run build    # build to _site/
 ```
 
+## Testing
+
+```bash
+npm test         # run all tests
+```
+
+Tests cover data integrity (valid brand/category refs, no duplicate slugs, price data) and SEO output (OG tags, JSON-LD, sitemap).
+
 ## Data
 
 Product and price data lives in `src/_data/`:
@@ -40,6 +48,7 @@ Product and price data lives in `src/_data/`:
 | `products.json` | Product catalog (name, brand, category, description) |
 | `prices.json` | Retailer prices and affiliate URLs per product |
 | `categories.json` | Product categories |
+| `site.json` | Site-wide config (URL, name, tagline) |
 
 ## Price Scraping
 
