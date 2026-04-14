@@ -712,7 +712,7 @@
   "mented-nail-lacquer": [
     {
       "retailer": "mentedcosmetics.com",
-      "price": 10.00,
+      "price": 10,
       "url": "#",
       "shipping": "Buy direct from brand",
       "isDTC": true,
@@ -720,7 +720,7 @@
     },
     {
       "retailer": "Amazon",
-      "price": 10.00,
+      "price": 10,
       "url": "#",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
@@ -730,7 +730,7 @@
   "mented-top-coat": [
     {
       "retailer": "mentedcosmetics.com",
-      "price": 10.00,
+      "price": 10,
       "url": "#",
       "shipping": "Buy direct from brand",
       "isDTC": true,
