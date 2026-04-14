@@ -21,3 +21,14 @@ Key routing rules:
 - Architecture review → invoke plan-eng-review
 - Save progress, checkpoint, resume → invoke checkpoint
 - Code quality, health check → invoke health
+
+## Testing
+
+- Run: `npm test` (vitest)
+- Test directory: `test/`
+- See TESTING.md for details
+- When writing new functions, write a corresponding test
+- When fixing a bug, write a regression test
+- When adding error handling, write a test that triggers the error
+- When adding a conditional, test both paths
+- Never commit code that makes existing tests fail

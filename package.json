@@ -5,7 +5,8 @@
   "scripts": {
     "build": "npx @11ty/eleventy",
     "serve": "npx @11ty/eleventy --serve",
-    "scrape": "node scripts/scrape-prices.js"
+    "scrape": "node scripts/scrape-prices.js",
+    "test": "vitest run"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/mktemba/BlackBeautyProductsWebsite#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^3.1.5"
+    "@11ty/eleventy": "^3.1.5",
+    "vitest": "^4.1.4"
   }
 }
