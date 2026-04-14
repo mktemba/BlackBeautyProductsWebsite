@@ -4,13 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ title | default("Black Beauty Brands — Your favorite products, in one place") }}</title>
-  <meta name="description" content="{{ description | default("Find Black-owned beauty products at the best prices across retailers. Compare prices and shop with confidence.") }}">
+  <meta name="description" content="{{ description | default(site.defaultDescription) }}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
 
   <!-- Open Graph -->
-  <meta property="og:title" content="{{ title | default('Black Beauty Brands') }}">
-  <meta property="og:description" content="{{ description | default('Find Black-owned beauty products at the best prices across retailers.') }}">
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Black Beauty Brands">
+  <meta property="og:title" content="{{ title | default(site.name) }}">
+  <meta property="og:description" content="{{ description | default(site.defaultDescription) }}">
+  <meta property="og:type" content="{{ ogType | default('website') }}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  {% if ogImage %}
+  <meta property="og:image" content="{{ ogImage }}">
+  {% endif %}
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ title | default(site.name) }}">
+  <meta name="twitter:description" content="{{ description | default(site.defaultDescription) }}">
+  {% if ogImage %}
+  <meta name="twitter:image" content="{{ ogImage }}">
+  {% endif %}
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

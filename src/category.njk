@@ -6,8 +6,8 @@ pagination:
   alias: category
 permalink: "/{{ category.slug }}/"
 eleventyComputed:
-  title: "{{ category.name }} - Black Beauty Brands"
-  description: "Shop {{ category.name | lower }} products from Black-owned beauty brands. {{ category.description }}"
+  title: "{{ category.name | safe }} - Black Beauty Brands"
+  description: "Shop {{ category.name | safe | lower }} products from Black-owned beauty brands. {{ category.description | safe }}"
 ---
 
 <div class="category-header">

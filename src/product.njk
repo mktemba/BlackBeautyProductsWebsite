@@ -6,8 +6,10 @@ pagination:
   alias: product
 permalink: "/products/{{ product.slug }}/"
 eleventyComputed:
-  title: "{{ product.name }} - Compare Prices | Black Beauty Brands"
-  description: "{{ product.description }} Compare prices across retailers and find the best deal."
+  title: "{{ product.name | safe }} - Compare Prices | Black Beauty Brands"
+  description: "{{ product.description | safe }} Compare prices across retailers and find the best deal."
+  ogType: "product"
+  ogImage: "{{ product.image }}"
 ---
 
 {% set brand = brands | findBrand(product.brand) %}

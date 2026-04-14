@@ -6,8 +6,8 @@ pagination:
   alias: brand
 permalink: "/brands/{{ brand.slug }}/"
 eleventyComputed:
-  title: "{{ brand.name }} - Black Beauty Brands"
-  description: "{{ brand.bio }}"
+  title: "{{ brand.name | safe }} - Black Beauty Brands"
+  description: "{{ brand.bio | safe }}"
 ---
 
 <div class="breadcrumbs">
