@@ -716,5 +716,105 @@
       "isDTC": true,
       "lastChecked": "2026-04-12"
     }
+  ],
+  "mented-nail-lacquer": [
+    {
+      "retailer": "mentedcosmetics.com",
+      "price": 10.00,
+      "url": "#",
+      "shipping": "Buy direct from brand",
+      "isDTC": true,
+      "lastChecked": "2026-04-13"
+    },
+    {
+      "retailer": "Amazon",
+      "price": 10.00,
+      "url": "#",
+      "shipping": "Free shipping w/ Prime",
+      "isDTC": false,
+      "lastChecked": "2026-04-13"
+    }
+  ],
+  "mented-top-coat": [
+    {
+      "retailer": "mentedcosmetics.com",
+      "price": 10.00,
+      "url": "#",
+      "shipping": "Buy direct from brand",
+      "isDTC": true,
+      "lastChecked": "2026-04-13"
+    }
+  ],
+  "lip-bar-nail-lacquer": [
+    {
+      "retailer": "thelipbar.com",
+      "price": 9.97,
+      "url": "#",
+      "shipping": "Buy direct from brand",
+      "isDTC": true,
+      "lastChecked": "2026-04-13"
+    },
+    {
+      "retailer": "Walmart",
+      "price": 9.97,
+      "url": "#",
+      "shipping": "Free shipping $35+",
+      "isDTC": false,
+      "lastChecked": "2026-04-13"
+    }
+  ],
+  "mielle-rosemary-edge-gel": [
+    {
+      "retailer": "Amazon",
+      "price": 9.49,
+      "url": "#",
+      "shipping": "Free shipping w/ Prime",
+      "isDTC": false,
+      "lastChecked": "2026-04-13"
+    },
+    {
+      "retailer": "Walmart",
+      "price": 9.99,
+      "url": "#",
+      "shipping": "Free shipping $35+",
+      "isDTC": false,
+      "lastChecked": "2026-04-13"
+    },
+    {
+      "retailer": "mielleorganics.com",
+      "price": 9.99,
+      "url": "#",
+      "shipping": "Buy direct from brand",
+      "isDTC": true,
+      "lastChecked": "2026-04-13"
+    }
+  ],
+  "canviiy-tea-tree-serum": [
+    {
+      "retailer": "canviiy.com",
+      "price": 18.99,
+      "url": "#",
+      "shipping": "Buy direct from brand",
+      "isDTC": true,
+      "lastChecked": "2026-04-13"
+    },
+    {
+      "retailer": "Amazon",
+      "price": 19.99,
+      "url": "#",
+      "shipping": "Free shipping w/ Prime",
+      "isDTC": false,
+      "lastChecked": "2026-04-13"
+    }
+  ],
+  "jacqs-heal-slay-kit": [
+    {
+      "retailer": "shopjacqs.com",
+      "price": 64.99,
+      "url": "#",
+      "shipping": "Buy direct from brand",
+      "isDTC": true,
+      "lastChecked": "2026-04-13"
+    }
   ]
 }

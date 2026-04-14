@@ -278,5 +278,53 @@
     "category": "skin-care",
     "description": "Rich organic moisturizer with tropical ingredients for melanated and combination skin.",
     "image": ""
+  },
+  {
+    "name": "Nail Lacquer Collection",
+    "slug": "mented-nail-lacquer",
+    "brand": "mented-cosmetics",
+    "category": "nails",
+    "description": "Long-lasting nail lacquer in curated nude and bold shades designed to complement deeper skin tones. Vegan and 10-free formula.",
+    "image": ""
+  },
+  {
+    "name": "Nail Lacquer Top Coat",
+    "slug": "mented-top-coat",
+    "brand": "mented-cosmetics",
+    "category": "nails",
+    "description": "High-shine protective top coat that extends wear and prevents chipping. Pairs with Mented nail lacquers.",
+    "image": ""
+  },
+  {
+    "name": "Fast Dry Nail Lacquer",
+    "slug": "lip-bar-nail-lacquer",
+    "brand": "the-lip-bar",
+    "category": "nails",
+    "description": "Quick-drying vegan nail lacquer available in vibrant shades. 8-free formula, cruelty-free.",
+    "image": ""
+  },
+  {
+    "name": "Rosemary Mint Strengthening Edge Gel",
+    "slug": "mielle-rosemary-edge-gel",
+    "brand": "mielle-organics",
+    "category": "natural-clean",
+    "description": "Biotin and rosemary mint infused edge gel for natural hold without flaking. Organic-certified formula.",
+    "image": ""
+  },
+  {
+    "name": "Organic Tea Tree Scalp Serum",
+    "slug": "canviiy-tea-tree-serum",
+    "brand": "canviiy",
+    "category": "natural-clean",
+    "description": "All-organic tea tree and peppermint scalp treatment for dandruff, dryness, and irritation. Dermatologist-tested.",
+    "image": ""
+  },
+  {
+    "name": "Heal & Slay Skincare Kit",
+    "slug": "jacqs-heal-slay-kit",
+    "brand": "jacqs-organics",
+    "category": "natural-clean",
+    "description": "Complete clean skincare regimen with probiotic cleanser, toner, and moisturizer. All-natural, handcrafted in small batches.",
+    "image": ""
   }
 ]
