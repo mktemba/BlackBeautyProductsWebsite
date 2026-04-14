@@ -5,7 +5,7 @@
     "brand": "the-lip-bar",
     "category": "makeup",
     "description": "SPF-infused tinted moisturizer and skin conditioner in one. Available in 20+ shades for buildable, natural coverage.",
-    "image": ""
+    "image": "https://thelipbar.com/cdn/shop/files/tinted_cocoabean_1_d2a43100-3590-476d-b71c-37a7df7b2f70.jpg?v=1685110972"
   },
   {
     "name": "Quick Conceal Caffeine Concealer",
@@ -13,7 +13,7 @@
     "brand": "the-lip-bar",
     "category": "makeup",
     "description": "Self-setting satin-finish concealer infused with caffeine for minimal effort, full coverage.",
-    "image": ""
+    "image": "https://thelipbar.com/cdn/shop/products/concealer_ebony_swatch_aed5ed27-7244-4373-a7f8-ac5d511f61fa_grande.jpg?v=1670485223"
   },
   {
     "name": "Soft Kisses Nourishing Lipstick",
@@ -21,7 +21,7 @@
     "brand": "the-lip-bar",
     "category": "makeup",
     "description": "Hydrating, nourishing lipstick available in bold and neutral shades.",
-    "image": ""
+    "image": "https://thelipbar.com/cdn/shop/products/softkisses_vexxed-_jpg.jpg?v=1678714712"
   },
   {
     "name": "Make It Glow SPF 30",
@@ -29,7 +29,7 @@
     "brand": "black-girl-sunscreen",
     "category": "skin-care",
     "description": "Moisturizing sunscreen lotion with jojoba, glycerin, and avocado oils. Sheer finish with no white cast.",
-    "image": ""
+    "image": "https://blackgirlsunscreen.com/wp-content/uploads/2022/05/2.png"
   },
   {
     "name": "Original SPF 30",
@@ -37,7 +37,7 @@
     "brand": "black-girl-sunscreen",
     "category": "skin-care",
     "description": "Flagship daily-use moisturizing sunscreen for face and body, designed for melanated skin.",
-    "image": ""
+    "image": "https://blackgirlsunscreen.com/wp-content/uploads/2017/08/Untitled-design.png"
   },
   {
     "name": "Make It Matte SPF 45",
@@ -45,7 +45,7 @@
     "brand": "black-girl-sunscreen",
     "category": "skin-care",
     "description": "Matte-finish sunscreen formula for oily or combination melanated skin.",
-    "image": ""
+    "image": "https://blackgirlsunscreen.com/wp-content/uploads/2021/01/11.png"
   },
   {
     "name": "Rosemary Mint Scalp & Hair Strengthening Oil",
@@ -53,7 +53,7 @@
     "brand": "mielle-organics",
     "category": "hair-care",
     "description": "Cult-status biotin-infused scalp oil that went viral on TikTok for hair growth results. 2 oz.",
-    "image": ""
+    "image": "https://mielleorganics.com/cdn/shop/files/RM_SHA.jpg"
   },
   {
     "name": "Pomegranate & Honey Leave-In Conditioner",
@@ -61,7 +61,7 @@
     "brand": "mielle-organics",
     "category": "hair-care",
     "description": "Rich leave-in conditioner for curly and coily hair types.",
-    "image": ""
+    "image": "https://mielleorganics.com/cdn/shop/files/PH_SHA.jpg"
   },
   {
     "name": "Babassu Oil & Mint Deep Conditioner",
@@ -69,7 +69,7 @@
     "brand": "mielle-organics",
     "category": "hair-care",
     "description": "Deep conditioning treatment for dry, damaged strands.",
-    "image": ""
+    "image": "https://mielleorganics.com/cdn/shop/files/Packshot_Mielle_SHAseal_BabMint_DeepCond_8oz_En_80835620_2048px.jpg"
   },
   {
     "name": "Leave-In Conditioner",
@@ -77,7 +77,7 @@
     "brand": "pattern-beauty",
     "category": "hair-care",
     "description": "Bestselling detangling and moisture-sealing leave-in for curly and coily hair. 25 fl oz.",
-    "image": ""
+    "image": "https://patternbeauty.com/cdn/shop/files/RT_LeaveInConditioner9.8oz_Cement_Yellow_copy.jpg?v=1761949321"
   },
   {
     "name": "Hydration Shampoo",
@@ -85,7 +85,7 @@
     "brand": "pattern-beauty",
     "category": "hair-care",
     "description": "Gentle, non-stripping shampoo that preserves curl moisture. 25 fl oz.",
-    "image": ""
+    "image": "https://patternbeauty.com/cdn/shop/files/hydration_shampoo_2000x2000_72dpicopy_1.jpg?v=1761948463"
   },
   {
     "name": "Skin by Mented Foundation",
@@ -173,7 +173,7 @@
     "brand": "rosen-skincare",
     "category": "skin-care",
     "description": "Fruit-powder exfoliating cleanser that targets breakouts and dullness. Bestseller.",
-    "image": ""
+    "image": "https://www.rosenskincare.com/cdn/shop/files/SSC_New.jpg?v=1759867578"
   },
   {
     "name": "Hyper-Fade Dark Spot Patches",
@@ -181,7 +181,7 @@
     "brand": "rosen-skincare",
     "category": "skin-care",
     "description": "Adhesive dark spot patches with active ingredients for targeted treatment.",
-    "image": ""
+    "image": "https://www.rosenskincare.com/cdn/shop/files/Patches_Site_31f14a5d-ff48-4d1a-a7da-9693ff556024.jpg?v=1763506041"
   },
   {
     "name": "ScalpBliss Itch Calming Serum",
