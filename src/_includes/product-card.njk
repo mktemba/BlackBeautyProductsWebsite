@@ -1,5 +1,5 @@
 <div class="product-card">
-  <a href="/products/{{ product.slug }}/">
+  <a href="{{ ('/products/' + product.slug + '/') | url }}">
     {% if product.image %}
       <img class="product-card-image" src="{{ product.image }}" alt="{{ product.name }}">
     {% else %}

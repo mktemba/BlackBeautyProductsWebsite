@@ -11,9 +11,9 @@ eleventyComputed:
 ---
 
 <div class="breadcrumbs">
-  <a href="/">Home</a>
+  <a href="{{ '/' | url }}">Home</a>
   <span class="separator">&rsaquo;</span>
-  <a href="/brands/">Brands</a>
+  <a href="{{ '/brands/' | url }}">Brands</a>
   <span class="separator">&rsaquo;</span>
   {{ brand.name }}
 </div>

@@ -47,6 +47,7 @@ module.exports = function (eleventyConfig) {
   });
 
   return {
+    pathPrefix: "/BlackBeautyProductsWebsite/",
     dir: {
       input: "src",
       output: "_site",

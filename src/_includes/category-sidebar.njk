@@ -1,9 +1,9 @@
 <aside class="sidebar">
   <h2>Categories</h2>
   <ul class="sidebar-links">
-    <li><a href="/"{% if page.url == "/" %} class="active"{% endif %}>All Products</a></li>
+    <li><a href="{{ '/' | url }}"{% if page.url == "/" %} class="active"{% endif %}>All Products</a></li>
     {% for cat in categories %}
-    <li><a href="/{{ cat.slug }}/"{% if page.url == "/" + cat.slug + "/" %} class="active"{% endif %}>{{ cat.name }}</a></li>
+    <li><a href="{{ ('/' + cat.slug + '/') | url }}"{% if page.url == "/" + cat.slug + "/" %} class="active"{% endif %}>{{ cat.name }}</a></li>
     {% endfor %}
   </ul>
 </aside>

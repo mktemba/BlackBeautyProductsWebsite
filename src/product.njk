@@ -15,10 +15,10 @@ eleventyComputed:
 {% set productPrices = prices[product.slug] %}
 
 <div class="breadcrumbs">
-  <a href="/">Home</a>
+  <a href="{{ '/' | url }}">Home</a>
   <span class="separator">&rsaquo;</span>
   {% if category %}
-  <a href="/{{ category.slug }}/">{{ category.name }}</a>
+  <a href="{{ ('/' + category.slug + '/') | url }}">{{ category.name }}</a>
   <span class="separator">&rsaquo;</span>
   {% endif %}
   {{ product.name }}
@@ -36,7 +36,7 @@ eleventyComputed:
   <div class="product-detail-info">
     <div class="product-detail-brand">
       {% if brand %}
-        <a href="/brands/{{ brand.slug }}/">{{ brand.name }}</a>
+        <a href="{{ ('/brands/' + brand.slug + '/') | url }}">{{ brand.name }}</a>
       {% endif %}
     </div>
     <h1 class="product-detail-name">{{ product.name }}</h1>

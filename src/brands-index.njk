@@ -13,7 +13,7 @@ permalink: "/brands/"
 <div class="brands-grid">
   {% for brand in brands %}
   <div class="brand-card">
-    <a href="/brands/{{ brand.slug }}/">
+    <a href="{{ ('/brands/' + brand.slug + '/') | url }}">
       <div class="brand-card-name">{{ brand.name }}</div>
       <div class="brand-card-meta">
         Founded {{ brand.founded }}
