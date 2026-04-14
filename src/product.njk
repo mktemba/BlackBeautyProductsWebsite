@@ -47,3 +47,36 @@ eleventyComputed:
     {% include "price-table.njk" %}
   </div>
 </div>
+
+{% set sortedPrices = productPrices | sortByPrice %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": {{ product.name | dump | safe }},
+  "description": {{ product.description | dump | safe }},
+  {% if product.image %}"image": {{ product.image | dump | safe }},{% endif %}
+  {% if brand %}"brand": { "@type": "Brand", "name": {{ brand.name | dump | safe }} },{% endif %}
+  {% if sortedPrices.length > 0 %}
+  "offers": {
+    "@type": "AggregateOffer",
+    "priceCurrency": "USD",
+    "lowPrice": {{ sortedPrices[0].price }},
+    "highPrice": {{ sortedPrices[sortedPrices.length - 1].price }},
+    "offerCount": {{ sortedPrices.length }}
+  }
+  {% endif %}
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}{{ '/' | url }}" }
+    {% if category %},{ "@type": "ListItem", "position": 2, "name": {{ category.name | dump | safe }}, "item": "{{ site.url }}{{ ('/' + category.slug + '/') | url }}" }{% endif %}
+    ,{ "@type": "ListItem", "position": {% if category %}3{% else %}2{% endif %}, "name": {{ product.name | dump | safe }} }
+  ]
+}
+</script>

@@ -36,3 +36,15 @@ eleventyComputed:
     {% include "product-card.njk" %}
   {% endfor %}
 </div>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}{{ '/' | url }}" },
+    { "@type": "ListItem", "position": 2, "name": "Brands", "item": "{{ site.url }}{{ '/brands/' | url }}" },
+    { "@type": "ListItem", "position": 3, "name": {{ brand.name | dump | safe }} }
+  ]
+}
+</script>
