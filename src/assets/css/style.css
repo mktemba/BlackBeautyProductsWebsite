@@ -168,11 +168,17 @@ img {
   transition: background 0.15s, color 0.15s;
 }
 
-.sidebar-links a:hover,
-.sidebar-links a.active {
+.sidebar-links a:hover {
   background: var(--color-sidebar-bg);
   color: var(--color-text);
   text-decoration: none;
+}
+
+.sidebar-links a.active {
+  background: var(--color-accent);
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 /* === Product Grid === */
