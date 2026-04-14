@@ -3,114 +3,114 @@
     {
       "retailer": "Walmart",
       "price": 16.97,
-      "url": "#",
+      "url": "https://www.walmart.com/ip/The-Lip-Bar-Just-a-Tint-3-in-1-Tinted-Skin-Conditioner-My-Fair-Lady/904449467",
       "shipping": "Free shipping $35+",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "thelipbar.com",
       "price": 16.97,
-      "url": "#",
+      "url": "https://thelipbar.com/products/just-a-tint-3-in-1-tinted-skin-conditioner",
       "shipping": "Buy direct from brand",
       "isDTC": true,
-      "lastChecked": "2026-04-12"
-    },
-    {
-      "retailer": "Amazon",
-      "price": 16.97,
-      "url": "#",
-      "shipping": "Free shipping w/ Prime",
-      "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     }
   ],
   "lip-bar-caffeine-concealer": [
     {
       "retailer": "thelipbar.com",
       "price": 14.97,
-      "url": "#",
+      "url": "https://thelipbar.com/products/quick-conceal-caffeine-concealer",
       "shipping": "Buy direct from brand",
       "isDTC": true,
-      "lastChecked": "2026-04-12"
-    },
-    {
-      "retailer": "Amazon",
-      "price": 15.99,
-      "url": "#",
-      "shipping": "Free shipping w/ Prime",
-      "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     }
   ],
   "lip-bar-soft-kisses-lipstick": [
     {
       "retailer": "thelipbar.com",
       "price": 12.97,
-      "url": "#",
+      "url": "https://thelipbar.com/products/soft-kisses-nourishing-lipstick",
       "shipping": "Buy direct from brand",
       "isDTC": true,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "Amazon",
       "price": 13.99,
-      "url": "#",
+      "url": "https://www.amazon.com/Lip-Bar-Nourishing-Lipstick-Moisturizing/dp/B0CPRMV9KL",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
+    },
+    {
+      "retailer": "Walmart",
+      "price": 12.97,
+      "url": "https://www.walmart.com/ip/The-Lip-Bar-Soft-Kisses-Nourishing-Lipstick-Goodside/1377859688",
+      "shipping": "Free shipping $35+",
+      "isDTC": false,
+      "lastChecked": "2026-04-13"
     }
   ],
   "bgs-make-it-glow": [
     {
       "retailer": "Ulta Beauty",
       "price": 18.99,
-      "url": "#",
+      "url": "https://www.ulta.com/p/make-it-glow-continuous-spray-spf30-pimprod2032832",
       "shipping": "Free shipping $35+",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "blackgirlsunscreen.com",
       "price": 18.99,
-      "url": "#",
+      "url": "https://blackgirlsunscreen.com/product/make-it-glow-spf-30/",
       "shipping": "Buy direct from brand",
       "isDTC": true,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "Amazon",
       "price": 18.99,
-      "url": "#",
+      "url": "https://www.amazon.com/Black-Girl-Sunscreen-White-Residue-SPF-30-5oz-Spray/dp/B0CWZF44C5",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     }
   ],
   "bgs-original-spf30": [
     {
       "retailer": "Amazon",
       "price": 16.99,
-      "url": "#",
+      "url": "https://www.amazon.com/Black-Girl-Sunscreen-Moisturizing-White-Residue/dp/B077QCW4XG",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "Ulta Beauty",
       "price": 16.99,
-      "url": "#",
+      "url": "https://www.ulta.com/p/moisturizing-sunscreen-lotion-spf-30-pimprod2021860",
       "shipping": "Free shipping $35+",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
+    },
+    {
+      "retailer": "Walmart",
+      "price": 16.99,
+      "url": "https://www.walmart.com/ip/Black-Girl-Sunscreen-Moisturizing-Sunscreen-Lotion-SPF-30-No-White-Residue-Formulated-with-Natural-Ingredients-for-Melanin-Rich-Skin-3-Fl-Oz/5636105601",
+      "shipping": "Free shipping $35+",
+      "isDTC": false,
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "blackgirlsunscreen.com",
       "price": 16.99,
-      "url": "#",
+      "url": "https://blackgirlsunscreen.com/product/black-girl-sunscreen-spf-30/",
       "shipping": "Buy direct from brand",
       "isDTC": true,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     }
   ],
   "bgs-make-it-matte": [
@@ -135,34 +135,34 @@
     {
       "retailer": "Amazon",
       "price": 9.99,
-      "url": "#",
+      "url": "https://www.amazon.com/Mielle-Rosemary-Mint-Scalp-Strengthening/dp/B07N7PK9QK",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "Ulta Beauty",
       "price": 9.99,
-      "url": "#",
+      "url": "https://www.ulta.com/p/rosemary-mint-scalp-hair-strengthening-oil-pimprod2033947",
       "shipping": "Free shipping $35+",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "Walmart",
       "price": 9.99,
-      "url": "#",
+      "url": "https://www.walmart.com/ip/Mielle-Organics-Rosemary-Mint-Scalp-Hair-Strengthening-Oil-2-oz/828017004",
       "shipping": "Free shipping $35+",
       "isDTC": false,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     },
     {
       "retailer": "mielleorganics.com",
       "price": 9.99,
-      "url": "#",
+      "url": "https://mielleorganics.com/products/rosemary-mint-oil",
       "shipping": "Buy direct from brand",
       "isDTC": true,
-      "lastChecked": "2026-04-12"
+      "lastChecked": "2026-04-13"
     }
   ],
   "mielle-pomegranate-leave-in": [
@@ -203,17 +203,9 @@
   ],
   "pattern-leave-in-conditioner": [
     {
-      "retailer": "Sephora",
-      "price": 49,
-      "url": "#",
-      "shipping": "Free shipping $50+",
-      "isDTC": false,
-      "lastChecked": "2026-04-12"
-    },
-    {
       "retailer": "Ulta Beauty",
       "price": 49,
-      "url": "#",
+      "url": "https://www.ulta.com/p/leave-in-conditioner-pimprod2009735?sku=2552737",
       "shipping": "Free shipping $35+",
       "isDTC": false,
       "lastChecked": "2026-04-12"
@@ -221,7 +213,7 @@
     {
       "retailer": "patternbeauty.com",
       "price": 49,
-      "url": "#",
+      "url": "https://patternbeauty.com/products/leave-in",
       "shipping": "Buy direct from brand",
       "isDTC": true,
       "lastChecked": "2026-04-12"
@@ -229,7 +221,7 @@
     {
       "retailer": "Amazon",
       "price": 49,
-      "url": "#",
+      "url": "https://www.amazon.com/PATTERN-Conditioner-Curlies-Coilies-Textures/dp/B093TJXTM1",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
       "lastChecked": "2026-04-12"
@@ -337,15 +329,15 @@
     {
       "retailer": "Amazon",
       "price": 19.99,
-      "url": "#",
+      "url": "https://www.amazon.com/Honey-Miracle-Conditioner-Natural-Olive/dp/B00FN3EIS4",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
       "lastChecked": "2026-04-12"
     },
     {
-      "retailer": "Ulta Beauty",
+      "retailer": "Sally Beauty",
       "price": 19.99,
-      "url": "#",
+      "url": "https://www.sallybeauty.com/hair-care/textured-and-curly-hair-care/coily-hair/honey-miracle-hair-mask-12oz/SBS-689003.html",
       "shipping": "Free shipping $35+",
       "isDTC": false,
       "lastChecked": "2026-04-12"
@@ -353,7 +345,7 @@
     {
       "retailer": "tginatural.com",
       "price": 19.99,
-      "url": "#",
+      "url": "https://tginatural.com/products/honey-miracle-hair-mask",
       "shipping": "Buy direct from brand",
       "isDTC": true,
       "lastChecked": "2026-04-12"
@@ -381,15 +373,15 @@
     {
       "retailer": "Amazon",
       "price": 12.99,
-      "url": "#",
+      "url": "https://www.amazon.com/Doux-Mousse-Texture-Foam-pack/dp/B079F4YNMS",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
       "lastChecked": "2026-04-12"
     },
     {
-      "retailer": "Walmart",
+      "retailer": "Sally Beauty",
       "price": 12.99,
-      "url": "#",
+      "url": "https://www.sallybeauty.com/hair-care/shop-by-product/hair-styling-products/hair-mousse/mousse-def-texture-foam/SBS-801153.html",
       "shipping": "Free shipping $35+",
       "isDTC": false,
       "lastChecked": "2026-04-12"
@@ -397,7 +389,7 @@
     {
       "retailer": "thedoux.com",
       "price": 12.99,
-      "url": "#",
+      "url": "https://thedoux.com/products/mousse-def-texture-foam",
       "shipping": "Buy direct from brand",
       "isDTC": true,
       "lastChecked": "2026-04-12"
@@ -425,7 +417,7 @@
     {
       "retailer": "Amazon",
       "price": 19.99,
-      "url": "#",
+      "url": "https://www.amazon.com/Kaleidoscope-Miracle-Drops/dp/B07YXB3GP7",
       "shipping": "Free shipping w/ Prime",
       "isDTC": false,
       "lastChecked": "2026-04-12"
@@ -433,15 +425,15 @@
     {
       "retailer": "Walmart",
       "price": 19.99,
-      "url": "#",
+      "url": "https://www.walmart.com/ip/Kaleidoscope-Miracle-Drops-Original-2-fl-oz-Dry-Hair-Moisturizing-Unisex/804502692",
       "shipping": "Free shipping $35+",
       "isDTC": false,
       "lastChecked": "2026-04-12"
     },
     {
-      "retailer": "kaleidoscopehairproducts.com",
+      "retailer": "iluvcolors.com",
       "price": 29.99,
-      "url": "#",
+      "url": "https://iluvcolors.com/products/miracle-drops-original",
       "shipping": "Buy direct from brand",
       "isDTC": true,
       "lastChecked": "2026-04-12"
